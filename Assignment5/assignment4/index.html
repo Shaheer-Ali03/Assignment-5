@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<img src="image/r.png" width="100" length="100" align="left">
+<center><h1>STUDENT REGISTRATION FORM</h1></center>
+<body>
+
+    <form action="http://www.example.com/login.php"><br>
+        <p>Username:
+         <input type="text" name="username" size="15"
+         maxlength="30" />
+        </p>
+        
+        <p>Password:
+         <input type="password" name="password" size="15"
+         maxlength="30" /></p>
+         <p>Date of Birth:
+            <input type="date" name="date of birth" />
+        </p>
+         <fieldset>
+            <legend>Contact details</legend>
+            <label>Email:<br />
+            <input type="text" name="email" /></label><br />
+            <label>Mobile:<br />
+            <input type="text" name="Phone NO" /></label><br />
+            
+            </fieldset>
+         <br><br>
+
+         <label>Age: <input type="text" name="age" /></label>
+         <br/ >
+         Gender:
+         <input id="female" type="radio" name="gender"
+         value="f">
+         <label for="female">Female</label>
+         <input id="male" type="radio" name="gender"
+         value="m">
+         <label for="male">Male</label>         
+            <p>Address: 
+                <textarea name="comments" cols="20" rows="4">Enter your Address</textarea></p>
+        </p>
+        <p>City:
+            <input type="text" name="city" size="15"
+            maxlength="30" />
+           </p>
+           
+           <p>Pin Code:
+            <input type="pin code" name="pincode" size="15"
+            maxlength="30" /></p>
+            <p>State:
+               <input type="text" name="state" />
+               </p>
+               <p>Please select your Hobby:
+                <br />
+                <input type="checkbox" name="service"
+                value="drawing" checked="checked" /> drawing
+                <input type="checkbox" name="service"
+                value="singing" /> singing
+                <input type="checkbox" name="service"
+                value="dancing" /> dancing
+                <input type="checkbox" name="service"
+                value="sketing" /> sketing
+                <input type="checkbox" name="service"
+                value="others" /> others <input type="pin code" name="password" size="15"
+                maxlength="30" />
+               </p>
+               <table>
+                <tr>
+                    <th><label for="">Qualification:</label></th>
+                    <td>S.No</td>
+                    <td>Examination</td>
+                    <td>Board</td>
+                    <td>Percentage</td>
+                    <td>Year of Passing</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>2 </td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                    <td><input type="number" required pattern="digits"></td>
+                </tr>
+            </table>
+            <tr>
+                <th><label for="Courses"><b>Courses Applied For:</b></label></th>
+                <td><input type="radio" name="courses" value="BCA" id="bca">BCA</td>
+                <td><input type="radio" name="courses" value="B.Com" id="bcom">B.Com</td>
+                <td><input type="radio" name="courses" value="B.Sc" id="bsc">B.Sc</td>
+                <td><input type="radio" name="courses" value="B.A"  id="ba">B.A</td>
+            </tr>
+            <br><br>
+            <center>
+                <tr>
+                    <td>
+                        <input type="button" name="submit" value="Submit">
+                    </td>
+                    <td>
+                        <input type="reset" name="reset" value="Reset">
+                    </td>
+                </tr>
+            </center>
+        </table>
+    </fieldset>
+        </form>
+    
+</body>
+</html>
